@@ -8,7 +8,7 @@ function ManagerDashbord() {
         <li className="text-center font-bold text-2xl">
           Welcome to the Manager Dashbord
         </li>
-        <Link to={"/create"}>
+        <Link to={"/createtask"}>
           <li>Create Task</li>
         </Link>
         <Link to={"/create"}>

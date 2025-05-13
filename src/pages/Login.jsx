@@ -81,12 +81,14 @@ function Login() {
             >
               Manager
             </button>
-            <button
-              type="submit"
-              className="w-20 h-9 bg-rose-500 rounded-lg text-white font-bold"
-            >
-              Employee
-            </button>
+            <Link to={"/signinPage"}>
+              <button
+                type="submit"
+                className="w-20 h-9 bg-rose-500 rounded-lg text-white font-bold"
+              >
+                Sign In
+              </button>
+            </Link>
           </div>
         </form>
       </div>
